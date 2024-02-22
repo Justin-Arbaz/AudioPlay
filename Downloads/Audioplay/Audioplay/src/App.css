@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.List ul li{
+  display: block;
+}
+/* ------- InputFile ------- */
+body {
+  background: #E7E7E7;
+  text-align: center;
+  padding-top: 5%;
+}
+label input[type='file']{ display: none; }
+label span {
+  cursor: pointer;
+  background: #e40ac0;
+  color: #FFF;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+label span:hover { background: #e40ac0c4; }
+
+/* ------- InputFile ------- */
+
+/* ------- Button ------- */
+.BodyBtn button{
+  margin: 5px;
+}
+.Btn {
+  background-color: #e40ac0;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.Btn:hover { background-color: #e40ac0c4; }
+.Btn1 {
+  background-color: #e40ac0;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.Btn1:hover { background-color: #e40ac0c4; }
+/* ------- Button ------- */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
